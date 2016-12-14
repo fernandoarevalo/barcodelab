@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Laboratorio Ionic
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <ion-card-header>
+      BarcodeScanner
+    </ion-card-header>
+    <ion-card-content>
+      The Barcode Scanner Plugin opens a camera view and automagically scans a barcode, returning the data back to you.
+      <br/>
+      <button (click)="scan()" ion-button color="dark">Escanear</button>
+      <button (click)="presentLoading()" ion-button color="dark">Prueba Loading</button>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
